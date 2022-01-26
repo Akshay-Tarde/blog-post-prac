@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+}
+
+.header {
+  margin: 45px auto;
+  color: #2e7ad3;
+  font-size: 48px;
+  text-align: center;
+}
+.blog-div {
+  width: 450px;
+  padding: 25px;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+}
+
+.div-header {
+  font-size: 32px;
+  margin: 0 0 10px; /*top (right and left) bottom*/
+  color: #104c90;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+.read-more {
+  margin: 0;
+}
+a {
+  color: #ff8000;
+  font-weight: bold;
+}
+
+a:hover,
+a:focus {
+  color: #2e7ad3;
+}
